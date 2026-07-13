@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <clipPath id="r"><rect width="1200" height="300" rx="18"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#151a24"/><stop offset="0.55" stop-color="#10141c"/><stop offset="1" stop-color="#0a0d13"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="30%" r="45%">
+      <stop offset="0" stop-color="#3fd0c9" stop-opacity="0.16"/><stop offset="1" stop-color="#3fd0c9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4d67e"/><stop offset="1" stop-color="#cf9f2e"/>
+    </linearGradient>
+    <filter id="sh" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#r)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#glow)"/>
+
+    <!-- ===== competency-map style node graph, right side ===== -->
+    <g stroke="#3fd0c9" stroke-opacity="0.35" stroke-width="1.4">
+      <line x1="760" y1="150" x2="880" y2="70"/>
+      <line x1="760" y1="150" x2="900" y2="150"/>
+      <line x1="760" y1="150" x2="860" y2="235"/>
+      <line x1="880" y1="70" x2="1010" y2="55"/>
+      <line x1="880" y1="70" x2="960" y2="150"/>
+      <line x1="900" y1="150" x2="960" y2="150"/>
+      <line x1="900" y1="150" x2="1000" y2="215"/>
+      <line x1="960" y1="150" x2="1080" y2="120"/>
+      <line x1="960" y1="150" x2="1000" y2="215"/>
+      <line x1="860" y1="235" x2="1000" y2="215"/>
+      <line x1="1000" y1="215" x2="1120" y2="235"/>
+      <line x1="1080" y1="120" x2="1120" y2="235"/>
+      <line x1="1010" y1="55" x2="1080" y2="120"/>
+    </g>
+    <g fill="url(#gold)" filter="url(#sh)">
+      <circle cx="760" cy="150" r="7"/>
+      <circle cx="880" cy="70" r="5.5"/>
+      <circle cx="900" cy="150" r="5.5"/>
+      <circle cx="860" cy="235" r="5.5"/>
+      <circle cx="1010" cy="55" r="4.5"/>
+      <circle cx="960" cy="150" r="6"/>
+      <circle cx="1080" cy="120" r="5"/>
+      <circle cx="1000" cy="215" r="5.5"/>
+      <circle cx="1120" cy="235" r="4.5"/>
+    </g>
+
+    <!-- ===== text block ===== -->
+    <text x="70" y="118" font-size="52" font-weight="700" fill="#f3f4f6">Németh Máté</text>
+    <text x="70" y="152" font-size="21" fill="url(#gold)" font-weight="600">BME VIK &#8226; Mérnökinformatikus hallgató</text>
+
+    <text x="70" y="196" font-size="16.5" fill="#9aa3af">Gépi tanulás &#8226; játékfejlesztés &#8226; rendszertervezés</text>
+    <text x="70" y="222" font-size="16.5" fill="#9aa3af">Python &#183; Java &#183; C++ &#183; C#</text>
+
+    <rect x="70" y="246" width="150" height="30" rx="15" fill="none" stroke="#3fd0c9" stroke-opacity="0.55" stroke-width="1.3"/>
+    <text x="145" y="266" font-size="14" fill="#3fd0c9" text-anchor="middle" font-weight="600">GITHUB.COM/NEMMATEE</text>
+  </g>
+</svg>

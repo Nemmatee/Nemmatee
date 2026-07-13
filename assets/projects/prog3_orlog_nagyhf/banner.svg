@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+  <defs>
+    <clipPath id="r"><rect width="1200" height="340" rx="18"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#1d222c"/><stop offset="0.55" stop-color="#141821"/><stop offset="1" stop-color="#0c0f15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="76%" cy="50%" r="34%">
+      <stop offset="0" stop-color="#e6b93d" stop-opacity="0.20"/><stop offset="1" stop-color="#e6b93d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dcdde2"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d67e"/><stop offset="1" stop-color="#cf9f2e"/>
+    </linearGradient>
+    <filter id="sh" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <!-- an upright sword, centred at origin -->
+    <path id="sword" d="M0,-21 L2.4,-4 L2.4,6 L7.5,6 L7.5,9.5 L2,9.5 L2,16 L0,18.5 L-2,16 L-2,9.5 L-7.5,9.5 L-7.5,6 L-2.4,6 L-2.4,-4 Z" fill="#2b2b2b"/>
+  </defs>
+
+  <g clip-path="url(#r)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- ===== three tossed dice (right) ===== -->
+    <!-- die A: MELEE — crossed swords (gold) -->
+    <g transform="translate(852,150) rotate(-11)" filter="url(#sh)">
+      <rect x="-40" y="-40" width="80" height="80" rx="16" fill="url(#face)" stroke="#cf9f2e" stroke-width="3.5"/>
+      <use href="#sword" transform="rotate(42)"/>
+      <use href="#sword" transform="rotate(-42)"/>
+    </g>
+    <!-- die B: SHIELD -->
+    <g transform="translate(958,132) rotate(8)" filter="url(#sh)">
+      <rect x="-40" y="-40" width="80" height="80" rx="16" fill="url(#face)" stroke="#c3c6cf" stroke-width="3"/>
+      <path d="M0,-19 L17,-12 Q17,3 0,21 Q-17,3 -17,-12 Z" fill="#2b2b2b"/>
+      <circle cx="0" cy="-1" r="3.6" fill="#e6e6ea"/>
+      <circle cx="0" cy="-13" r="1.7" fill="#e6e6ea"/>
+      <circle cx="-9" cy="-9" r="1.7" fill="#e6e6ea"/>
+      <circle cx="9" cy="-9" r="1.7" fill="#e6e6ea"/>
+    </g>
+    <!-- die C: HELMET — horned Viking helm -->
+    <g transform="translate(912,232) rotate(15)" filter="url(#sh)">
+      <rect x="-40" y="-40" width="80" height="80" rx="16" fill="url(#face)" stroke="#c3c6cf" stroke-width="3"/>
+      <g fill="#2b2b2b">
+        <path d="M-11,-8 Q-23,-12 -22,-22 Q-14,-16 -7,-11 Z"/>
+        <path d="M11,-8 Q23,-12 22,-22 Q14,-16 7,-11 Z"/>
+        <path d="M-13,4 Q-13,-15 0,-15 Q13,-15 13,4 Z"/>
+        <rect x="-16" y="2" width="32" height="6" rx="3"/>
+        <rect x="-3.2" y="7" width="6.4" height="12" rx="2.5"/>
+      </g>
+      <path d="M-11,-2 L-4,-4 L-4,3 L-11,3 Z" fill="#e6e6ea"/>
+      <path d="M11,-2 L4,-4 L4,3 L11,3 Z" fill="#e6e6ea"/>
+    </g>
+
+    <!-- ===== text (left) ===== -->
+    <text x="70" y="112" fill="#e6b93d" font-size="16" font-weight="700" letter-spacing="4">BME · PROG3 · JAVA SWING</text>
+    <text x="64" y="200" fill="#ffffff" font-size="94" font-weight="800" letter-spacing="-1">Orlog</text>
+    <rect x="72" y="216" width="132" height="5" rx="2.5" fill="url(#gold)"/>
+    <text x="72" y="252" fill="#d8c79a" font-size="22" font-weight="500">Viking kockajáték — a végzet kockái</text>
+    <text x="72" y="292" fill="#8b93a0" font-size="14.5" font-weight="600" letter-spacing="2.5">ISTEN-FAVOROK · AI ELLENFÉL · MENTÉS / BETÖLTÉS</text>
+  </g>
+</svg>
