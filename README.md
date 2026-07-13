@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Németh Máté — BME VIK, Mérnökinformatikus hallgató" width="100%">
+<img src="assets/banner.png" alt="Németh Máté — BME VIK, Mérnökinformatikus hallgató" width="100%">
 
 <br>
 
@@ -19,9 +19,9 @@
 
 BME VIK mérnökinformatikus hallgató vagyok. A féléves házi feladatokat és a szabadidős projekteket is szeretem végigvinni egy olyan szintre, ahol már nem csak "beadható", hanem szívesen megmutatom — legyen szó gépi tanulásról, játékfejlesztésről vagy rendszerszintű programozásról.
 
-- 🔭 Jelenleg: Önálló Laboratórium (Premier League predikció), TDK jelölt téma
-- 🧠 Érdeklődés: gépi tanulás, adatelemzés, játékfejlesztés (C++ / Java), rendszertervezés
-- 🌱 Tanulom: mélyebb ML-modellezés, RAG-alapú rendszerek
+- **Jelenleg** — Önálló Laboratórium (Premier League predikció), TDK jelölt téma
+- **Érdeklődés** — gépi tanulás, adatelemzés, játékfejlesztés (C++ / Java), rendszertervezés
+- **Tanulom** — mélyebb ML-modellezés, RAG-alapú rendszerek
 
 ## Kiemelt projektek
 
